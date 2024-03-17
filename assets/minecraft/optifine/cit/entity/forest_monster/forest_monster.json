@@ -1,0 +1,93 @@
+{
+	"credit": "kub1us",
+	"textures": {
+		"0": "entity/forest_monster/forest_monster",
+		"3": "entity/forest_monster/forest_monster_legs"
+	},
+	"elements": [
+		{
+			"name": "Правая нога",
+			"from": [10, 0, 6],
+			"to": [14, 7, 10],
+			"faces": {
+				"north": {"uv": [0, 2, 2, 6], "texture": "#3"},
+				"east": {"uv": [2, 2, 4, 6], "texture": "#3"},
+				"south": {"uv": [4, 2, 6, 6], "texture": "#3"},
+				"west": {"uv": [6, 2, 8, 6], "texture": "#3"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#3"},
+				"down": {"uv": [4, 0, 6, 2], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Левая нога",
+			"from": [2, 0, 6],
+			"to": [6, 7, 10],
+			"faces": {
+				"north": {"uv": [0, 2, 2, 6], "texture": "#3"},
+				"east": {"uv": [2, 2, 4, 6], "texture": "#3"},
+				"south": {"uv": [4, 2, 6, 6], "texture": "#3"},
+				"west": {"uv": [6, 2, 8, 6], "texture": "#3"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#3"},
+				"down": {"uv": [4, 0, 6, 2], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Туловище",
+			"from": [0, 7, 0],
+			"to": [16, 23, 16],
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "texture": "#0"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"south": {"uv": [12, 4, 16, 8], "texture": "#0"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#0"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#0"},
+				"down": {"uv": [8, 0, 12, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Корона",
+			"from": [0, 23, 0],
+			"to": [16, 25, 16],
+			"faces": {
+				"north": {"uv": [0, 15.5, 4, 16], "texture": "#0"},
+				"east": {"uv": [12, 15.5, 16, 16], "texture": "#0"},
+				"south": {"uv": [4, 15.5, 8, 16], "texture": "#0"},
+				"west": {"uv": [8, 15.5, 12, 16], "texture": "#0"},
+				"up": {"uv": [12, 0, 16, 4], "texture": "#0"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Левая рука",
+			"from": [-4, 3, 6],
+			"to": [0, 16, 10],
+			"faces": {
+				"north": {"uv": [15, 9, 16, 12.25], "texture": "#0"},
+				"east": {"uv": [15, 9, 16, 12.25], "texture": "#0"},
+				"south": {"uv": [15, 9, 16, 12.25], "texture": "#0"},
+				"west": {"uv": [15, 9, 16, 12.25], "texture": "#0"},
+				"up": {"uv": [14, 8, 15, 9], "texture": "#0"},
+				"down": {"uv": [14, 8, 15, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Правая рука",
+			"from": [16, 3, 6],
+			"to": [20, 16, 10],
+			"faces": {
+				"north": {"uv": [15, 9, 16, 12.25], "texture": "#0"},
+				"east": {"uv": [15, 9, 16, 12.25], "texture": "#0"},
+				"south": {"uv": [15, 9, 16, 12.25], "texture": "#0"},
+				"west": {"uv": [15, 9, 16, 12.25], "texture": "#0"},
+				"up": {"uv": [14, 8, 15, 9], "texture": "#0"},
+				"down": {"uv": [14, 8, 15, 9], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -33, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

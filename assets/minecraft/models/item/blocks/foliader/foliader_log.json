@@ -1,0 +1,14 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+    "end": "minecraft:block/foliader_log_top",
+    "side": "minecraft:block/foliader_log"
+	},
+	  "display": {
+		  "head": {
+			  "rotation": [0, 0, 0],
+			  "translation": [0, -30.43, 0],
+			  "scale": [1.601, 1.601, 1.601]
+		  }
+	  }
+  }
