@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/turtle_scute"
+	},
+  "overrides": [
+    {"predicate":{"custom_model_data":30001},"model":"minecraft2:item/amulet_of_fire_resistance"},
+    {"predicate":{"custom_model_data":30002},"model":"minecraft2:item/amulet_of_jump_boost"},
+    {"predicate":{"custom_model_data":30003},"model":"minecraft2:item/amulet_of_night_vision"},
+    {"predicate":{"custom_model_data":30004},"model":"minecraft2:item/amulet_of_regeneration"},
+    {"predicate":{"custom_model_data":30005},"model":"minecraft2:item/amulet_of_resistance"},
+    {"predicate":{"custom_model_data":30006},"model":"minecraft2:item/amulet_of_speed"},
+    {"predicate":{"custom_model_data":30007},"model":"minecraft2:item/amulet_of_strength"},
+    {"predicate":{"custom_model_data":30008},"model":"minecraft2:item/amulet_of_water_breathing"}
+  ]
+}
